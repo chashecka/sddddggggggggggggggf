@@ -1,67 +1,159 @@
 body {
     font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MImFbU7H5BzBz8PmJV3kUcSFz3_wj3Yfkw&usqp=CAU);
+    opacity: 0.2;
+}
+
+.d {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    color: blanchedalmond;
+}
+
+.dy {
+    color: blanchedalmond;
+    padding-left: 200px;
+    position: absolute;
+    top:110px;
+    left: 200px;
 }
 
 h1 {
-    font-size: 50px;
+    color: blanchedalmond;
+    top:110px;
     text-align: center;
 }
 
-p {
-    font-size: 40px;
-    color: lightblue;
+
+img {
+    width: 250px;
+    border-radius: 20px;
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
+.w {
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
+    position: absolute;
+    right: 10px;
+    top: 304px;
+    opacity: 0.5;
 }
 
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: blueviolet;
-    margin: 30px;
-    padding: 10px;
-    border-radius: 15px;
-    background-color: lightblue;
-}
-a:hover{
-    background-image: linear-gradient(white, lightblue);
-    box-shadow: 0 10px 5px 0 navy, 0 20px 5px 0 mediumaquamarine;
-    transition: 0.5s linear ;
-}
-.container {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-.gallery {
-    display: flex;
-    width: 500px;
-    flex-wrap: wrap;
-}
-
-.gallery img {
-    opacity: 0.2;
-    width: 150px;
-    height: 200px;
-}
-
-.gallery img:hover {
+.w:hover{
     opacity: 1;
-    border: 6px solid navy;
-    width: 170px;
-    height: 220px;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
     transition: 0.5s ease-out;
-    padding: 5px;
 }
 
-.text {
-    width: 300px;
+p {
+    color: blanchedalmond;
 }
 
-.right {
-    text-align: right;
+.h {
+    position: absolute;
+    right: 10px;
+    top: 460px;
+}
+
+.m {
+    position: absolute;
+    left: 30px;
+    top: 460px;
+}
+
+.r{
+    position: absolute;
+    top: 660px;
+}
+
+.t{
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
+    position: absolute;
+    top: 500px;
+    opacity: 0.5;
+}
+
+.t:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
+}
+
+.f:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
+}
+
+.f{
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
+    position: absolute;
+    right: 10px;
+    top: 500px;
+    opacity: 0.5;
+}
+
+.p{
+    position: absolute;
+    top: 660px;
+    right: 20px;
+}
+
+nav{
+
+}
+
+.knock{
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
+    position: absolute;
+    top: 304px;
+    opacity: 0.5;
+}
+
+.knock:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
+}
+
+.never{
+    position: absolute;
+    right:150px;
+}
+
+.by{
+    position: absolute;
+    left: 150px;
+    top: 530px;
+}
+
+.cant{
+    position: absolute;
+    left: 150px;
+}
+
+.wait{
+    position: absolute;
+    right: 150px;
+    top: 530px;
 }
